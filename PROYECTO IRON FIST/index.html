@@ -24,7 +24,6 @@
 <!--SECCION - 1 ------------------------------------------------------------------------------------------------------->
 
 <section class="Seccion_01" id="Seccion_01"  >
-<div class="Contenedor_RC" id="Contenedor_RC" onclick="Graficos_fondo()"><div class="Recursos" id="Recursos"></div></div>
 <h1 class="Nombre">IRON FIST</h1><h1 class="Texto_Principal">¿LISTO PARA DEFENDER<br> EL PLANETA?</h1>
 <button class="Boton" id="Juego" onclick="Mover()">JUGAR</button>
 </section>
@@ -70,17 +69,16 @@
 <!--SECCION - 4 ------------------------------------------------------------------------------------------------------->
 
 <section id="Seccion_2">
-<h1 class="Titulo_historia" id="Titulo_historia">Todo empezo cuando...</h1>
-<div class="Contenedor_Historia" id="Mensaje"><h3 style="margin-top: -1%;">CAPÍTULO I: NUESTRA SALVACIÓN</h3>
-En cierto día, las noticias de todo el mundo anunciaron que muy pronto se acercarían meteoritos de gran
-tamaño a la tierra y que solo era cuestión de horas para que comenzaran a llegar; el resultado de esto fue inmediato ya que 
-miles de personas comenzaron a alertarse y a hacer disturbios, en centros comerciales y areas publicas, para que el gobierno les
-diera alguna respuesta; pero el gobierno ya tenía un plan de contingencia, ya que ellos se habían enterado de la llegada de estos con días de antelación
-preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que consistía en los proyectiles más letales de la tierra y nuestra única salvación
-<div class="BOTONES_2"><div class="Boton_preparado" onclick="Mover_3()">¿Estas preparado? </div><div class="Contenedor_narracion" id="Contenedor_narracion">
-<i class="fas fa-play" id="VOLUMEN"></i><i class="fas fa-pause" id="PAUSE"></i></div></div>
+<h1 class="Titulo_historia" id="Titulo_historia">TODO EMPEZÓ CUANDO...</h1>
+<div class="Contenedor_Historia" id="Mensaje">
+<h3>CAPÍTULO I: NUESTRA SALVACIÓN</h3>
+<p>Todo comenzó cuando las noticias anunciaron que enormes meteoritos se dirigían hacia la Tierra y que solo faltaban unas horas para su llegada. El miedo se apoderó de la población y provocó caos en diferentes ciudades.</p>
+<p>Sin embargo, los gobiernos ya conocían la amenaza y habían preparado en secreto la iniciativa <strong>IRON FIST</strong>: un proyecto creado para destruir los meteoritos antes de que impactaran.</p>
+<p>Con el tiempo en contra, IRON FIST se convirtió en la última esperanza de la humanidad.</p>
+<div class="BOTONES_2"><button type="button" class="Boton_preparado" onclick="Mover_3()">¿ESTÁS PREPARADO? <span aria-hidden="true">→</span></button><button type="button" class="Contenedor_narracion" id="Contenedor_narracion" aria-label="Reproducir narración" title="Reproducir o pausar narración">
+<i class="fas fa-play" id="VOLUMEN"></i><i class="fas fa-pause" id="PAUSE"></i></button></div>
 </div>
-<img src="IMG/Metioritos_Callendo.jpg" class="Imgane_metiorito" id="Imagen" >
+<img src="IMG/Metioritos_Callendo.jpg" class="Imgane_metiorito" id="Imagen" alt="Meteoritos acercándose a la Tierra">
 </section>
 
 <!--SECCION - 5 ------------------------------------------------------------------------------------------------------->
@@ -95,7 +93,7 @@ preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que c
             <!--Contenedor-Cabezera-->
             <div class="Cabezera Contenedor">
             <div class="Tiempo"><h3>TIEMPO</h3><span id="Tiempo">70</span></div><!--Tiempo con su span para la el final del minuto--> 
-            <div class="Puntaje"><h3>PUNTAJE</h3><span id="Puntaje">0&nbsp;/&nbsp;27</span></div><!--Puntaje con su span que indica el puntaje-->
+            <div class="Puntaje"><h3>PUNTAJE</h3><span id="Puntaje">0&nbsp;/&nbsp;5</span></div><!--Puntaje con su span que indica el puntaje-->
             <div class="Pause" id="Pause"><h3>PAUSE / REANUDA</h3></div><!--Boton de pause-->
         
             </div>
@@ -131,9 +129,9 @@ preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que c
             
 
             <div style="display: flex; justify-content: center; position: absolute; width: 100%;">
-            <img src="IMG/Pez_Globo.gif" width="18%" id="chems1">
-            <h1 class="Pollo">Dificultad: Pez globo</h1>
-            <img src="IMG/Pez_Globo.gif" width="18%" id="chems2">
+            <img src="IMG/Marte.gif" width="18%" id="chems1">
+            <h1 class="Pollo">Dificultad: MARTE</h1>
+            <img src="IMG/Marte.gif" width="18%" id="chems2">
             </div>
 
             <br> <div class=Play id="Play">JUGAR</div><!--Boton de jugar-->
@@ -169,7 +167,7 @@ preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que c
         <!--Contenedor-Cabezera-->
         <div class="Cabezeralvl2 Contenedorlvl2">
             <div class="Tiempolvl2"><h3>TIEMPO</h3><span id="Tiempolvl2">60</span></div><!--Tiempo con su span para la el final del minuto--> 
-            <div class="Puntajelvl2"><h3>PUNTAJE</h3><span id="Puntajelvl2">0 / 34</span></div><!--Puntaje con su span que indica el puntaje-->
+            <div class="Puntajelvl2"><h3>PUNTAJE</h3><span id="Puntajelvl2">0 / 5</span></div><!--Puntaje con su span que indica el puntaje-->
             <div class="Pauselvl2" id="Pauselvl2"><h3>PAUSE / REANUDA</h3></div><!--Boton de pause-->
         
             </div>
@@ -192,9 +190,9 @@ preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que c
             <div class="Startlvl2" id="Startlvl2">
             <h1 class="Texolvl2" id="Texolvl2">¿LISTO PARA SALVAR<br> EL MUNDO? -> LVL: 2 </h1>
             <div id="Dificultad">
-                <img src="IMG/Tiburon.gif" width="18%">
-                <h1 style="font-size: 27px; font-family: 'Press Start 2P', cursive;">&nbsp;Dificultad : Tiburon&nbsp;</h1>
-                <img src="IMG/Tiburon.gif" width="18%">
+                <img src="IMG/nave2.0.gif" width="18%">
+                <h1 style="font-size: 27px; font-family: 'Press Start 2P', cursive;">&nbsp;Dificultad : NAVE NODRIZA&nbsp;</h1>
+                <img src="IMG/nave2.0.gif" width="18%">
             </div>
             <!--Titulo de la seccion start-->
             <br> <div class=Playlvl2 id="Playlvl2">JUGAR</div><!--Boton de jugar-->
@@ -234,7 +232,7 @@ preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que c
                     <!--Puntaje con su span que indica el puntaje-->
                     <div class="Puntajelvl3">
                         <h3>PUNTAJE</h3>
-                        <span id="Puntajelvl3">0 / 40</span>
+                        <span id="Puntajelvl3">0 / 5</span>
                     </div>
                     <!--Boton de pause-->
                     <div class="Pauselvl3" id="Pauselvl3">
@@ -266,10 +264,10 @@ preparando con la ayuda del resto de gobiernos, la iniciativa "IRON FIST", que c
                         <div class=Playlvl3 id="Playlvl3">JUGAR</div>
                         <!--Dificultad-->
                         <div class="Dificultadlvl3" id="Dificultadlvl3">
-                        <img src="IMG/Megalodon.gif" width="16%">
+                        <img src="IMG/SOL.gif" width="16%">
                         &nbsp;<h1 style="font-size: 27px; font-family: 'Press Start 2P', cursive;">
-                        Dificultad: Megalodon</h1>&nbsp;
-                        <img src="IMG/Megalodon.gif" width="16%">
+                        Dificultad: SOL</h1>&nbsp;
+                        <img src="IMG/SOL.gif" width="16%">
                         </div>
                         <!--Span que contiene el conteo-->
                         <div id="Contenedor_contadorlvl3"><span id="RGBlvl3"></span></div>
